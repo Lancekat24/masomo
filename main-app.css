@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.header{
+    position:fixed;
+    height: 80px;
+    width: 100%;
+    background:rgba(103, 106, 103, 0.6); 
+    z-index: 100;
+    padding: 0 20px;
+}
+.nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 10px;
+    
+}
+.nav,
+.nav_item { 
+    color: #0d0c0c;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav_logo{
+    font-size: 25px;
+}
+.nav_item {
+    column-gap: 25px;
+}
+.nav_link:hover{
+    color: #d9d9d9;
+}
+.button{
+    padding: 6px 24px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #06000e;
+}
+.button:active{
+    transform:scale(0.98) ;  
+}
+/*home*/
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("gens-plan-moyen-obtenant-leur-diplome.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*From*/
+.form_container{
+    position: absolute;
+    max-width: 320px;
+    width: 100%;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+     
+
+}
+.form_close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #ffffff;
+    font: size 22px; 
+    opacity: 0.7;
+    cursor: pointer;
+}
+.form_container{
+    font-size: 22px;
+    color: #06000e;
+    text-align: center;
+
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(193, 200, 193, 0.6);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(195, 200, 195, 0.6); 
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+   
+    
+  }
+select{
+    font-size: 0.9rem;
+    padding: 10px;
+    color :#06000e;
+    border: white;
+    max-width: 400px;
+    border-radius: 5px;
+    background-color: rgb(199, 199, 199);
+  }
+form {
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+button {
+    background-color:rgb(199, 199, 199);
+    color: #fff;
+    padding: 10px 20px;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(163, 163, 163);
+}
